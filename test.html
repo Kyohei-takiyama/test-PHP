@@ -1,0 +1,31 @@
+<!-- 確認テスト
+
+  @deiscription 
+       テキストボックスに名前を入力し、「送信」というボタンを押すと
+      「〇〇さんご登録ありがとうございます」と表示されるスクリプトを作成
+
+  @condition
+       1 送信前のファイル名はtest.htmlとする
+       2 送信後のファイル名はtest.phpとする
+
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="test.php" method="post">
+      <p>お名前：
+        <input type="text" name="name" />
+      </p> 
+      <p>
+        <input type="submit" value="送信" />
+      </p>
+    </form>
+</body>
+</html>
